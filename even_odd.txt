@@ -1,9 +1,0 @@
-echo "Enter a Number"  
-read num 
-e=`expr $num % 2`  
-case $e in  
-	0) echo "EVEN"
-		;; 
-	1) echo "ODD"
-		;;  
-esac
